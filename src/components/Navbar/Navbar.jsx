@@ -19,7 +19,7 @@ function NavBar() {
         
         <nav className= {styles.navBar}>
             <Link to="/">
-            <img className={logo} src= "{LogoTrabalho}" alt="Logo" />
+            <img className={logo} src= {LogoTrabalho} alt="Logo" />
             </Link>
 
             <ul>
