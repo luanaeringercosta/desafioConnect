@@ -1,0 +1,48 @@
+.navBar{
+    background-color: blue;
+    display: flex;
+
+    height: 15vh;
+    align-items: center;
+    justify-content: space-around;
+
+    ul{
+        border:solid red;
+        display: flex;
+        width: 60%;
+        justify-content: space-evenly;
+    }
+
+    a{
+        color:#ffffff;
+        font-size: 1.75rem;
+    }
+
+    
+
+    .imgPerfil{
+        height: 10vh;
+        border: green;
+       width: 9vw;
+        border-radius: 100%;
+    }
+}
+
+
+
+Responsivo------------
+@media (min-width: 201px) and (max-width: 500px) {
+  .navBar {
+    height: 10vh;
+    a {
+      font-size: 0.85rem;
+    }
+    .logo {
+      width: 10vw;
+    }
+    .imgPerfil {
+      height: 6vh;
+      width: 10vw;
+    }
+  }
+}
