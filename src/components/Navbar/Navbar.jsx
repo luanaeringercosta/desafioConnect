@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
 import Inicio from "../Inicio/Inicio";
-import Acoes from "../AcoesDaConnecct/AcoesDaConnect";
+import Acoes from "../AcoesDaConnect/AcoesDaConnect";
 import QuemSomos from "../QuemSomos/QuemSomos";
 import Perfil from "../Perfil/Perfil";
 
@@ -12,14 +12,14 @@ import FotoDoPerfil from "../../assets/perfil.jpg";
 
 import styles from "./NavBar.module.scss";
 
-function NavBar() {
+function Navbar() {
     
-    return(
+    return (
         <BrowserRouter>
         
         <nav className= {styles.navBar}>
             <Link to="/">
-            <img className={logo} src= {LogoTrabalho} alt="Logo" />
+            <img className={styles.logo} src= {LogoTrabalho} alt="Logo" />
             </Link>
 
             <ul>
@@ -27,15 +27,16 @@ function NavBar() {
                 <li> <Link to = "/acoes"> </Link>Ações da Connect</li>
                 <li> <Link to = "/quemSomos"> </Link>Quem Somos</li>
             </ul>
-
+             <Link to="/perfil">
             <img className={styles.imgPerfil} src= {FotoDoPerfil} alt="Perfil" />
+            </Link>
         </nav>
 
         <Routes>
             <Route path ="/" element={<Inicio />}/>
-            <Route path ="/Acoes" element= {<Acoes/>}/>
-            <Route path= "/QuemSomos" element= {<QuemSomos/>}/>
-            <Route path = "/Perfil" element= {<Perfil/>}/>
+            <Route path ="/acoes" element= {<Acoes/>}/>
+            <Route path= "/quemSomos" element= {<QuemSomos/>}/>
+            <Route path = "/perfil" element= {<Perfil/>}/>
 
 
         </Routes>
@@ -43,4 +44,4 @@ function NavBar() {
     );
 }
 
-export default NavBar;
+export default Navbar;
