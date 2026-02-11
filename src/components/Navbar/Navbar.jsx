@@ -8,7 +8,7 @@ import Perfil from "../Perfil/Perfil";
 import LogoTrabalho from "../../assets/logotrabalhoFinal.png";
 import FotoDoPerfil from "../../assets/perfil.jpg";
 
-import styles from "./NavBar.module.scss";
+import styles from './Navbar.module.scss';
 
 function Navbar() {
     
