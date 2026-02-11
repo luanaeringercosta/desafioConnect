@@ -5,8 +5,6 @@ import Acoes from "../AcoesDaConnect/AcoesDaConnect";
 import QuemSomos from "../QuemSomos/QuemSomos";
 import Perfil from "../Perfil/Perfil";
 
-
-import React from "react";
 import LogoTrabalho from "../../assets/logotrabalhoFinal.png";
 import FotoDoPerfil from "../../assets/perfil.jpg";
 
