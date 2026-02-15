@@ -1,11 +1,11 @@
-.containerTelaInicial{
-    background-color: rgb(209, 209, 201);
+.containerTelaInicial {
+    background-color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
 
-    div{
-        border: solid;
+    div {
+        //border: solid red;
         width: 45%;
         height: 40vh;
         display: flex;
@@ -13,15 +13,15 @@
         justify-content: space-evenly;
     
 
-    h1{
-        font-size: 5.625rem;
+    h1 {
+        font-size: 4.42rem;
         width: 90%;
-        border: solid purple;
+        //border: solid purple;
         color: #205691;
     }
     p {
-      font-size: 1.5rem;
-      width: 75%;
+      font-size: 1.2rem;
+      width: 80%;
     }
 }
 }
@@ -35,23 +35,23 @@
     
 
     div{
-        border: solid;
+        //border: solid;
         width: 90%;
         height: 40vh;
         align-items: center;
-        
+        text-align: center;
         justify-content: space-evenly;
     
 
     h1{
         font-size: 2rem;
         width: 80%;
-        border: purple;
+        //border: purple;
         
     }
     p {
-      font-size: 1.5rem;
-      width: 90%;
+      font-size: 0.75rem;
+      width: 1000%;
       text-align: center;
     }
 }

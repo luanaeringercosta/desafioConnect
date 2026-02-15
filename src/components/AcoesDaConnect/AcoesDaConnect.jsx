@@ -1,10 +1,10 @@
 import { useState } from "react";
-import Mutirao from "../../assets/uniaoMao.png";
-import Aulas from "../../assets/livro.png";
-import Esporte from "../../assets/ginasticaIdosos.png";
-import Familia from "../../assets/cestaAlimentos.png";
-import Futuro from "../../assets/jovensPc.png";
-import Conecta from "../../assets/montadoPc.png";
+import Mutirao from "../../assets/Mutirao.png";
+import Aulas from "../../assets/AulasTec.png";
+import Esporte from "../../assets/Esporte.png";
+import Familia from "../../assets/Instituto.png";
+import Futuro from "../../assets/Futuro.png";
+import Conecta from "../../assets/Conecta.png";
 
 import styles from "./AcoesDaConnect.module.scss";
 

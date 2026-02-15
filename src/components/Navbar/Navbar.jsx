@@ -5,7 +5,7 @@ import Acoes from "../AcoesDaConnect/AcoesDaConnect";
 import QuemSomos from "../QuemSomos/QuemSomos";
 import Perfil from "../Perfil/Perfil";
 
-import LogoTrabalho from "../../assets/logotrabalhoFinal.png";
+import LogoTrabalho from "../../assets/logo.png";
 import FotoDoPerfil from "../../assets/perfil.jpg";
 
 import styles from './Navbar.module.scss';
