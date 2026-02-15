@@ -1,39 +1,43 @@
 footer {
     background-color: #205691;
     display: flex;
-    height: 20vh;
+    height: 12vh;
     justify-content: space-around;
     align-items: center;
     color:#ffffff;
 
 
 div{
-    border: solid;
+    //border: solid;
     display: flex;
-    width: 15%;
+    width: 6%;
     align-items: center;
     justify-content: space-around;
 }
-
+img{
+    width: 68%;
+}
 h2{
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-weight: 400;
+}
 }
 
 p{
-    border: solid green;
-    width: 25%;
+    //border: solid green;
+    width: 26%;
     font-weight: 400%;
     text-align: center;
+    font-size: 0.8rem;
 }
 
-nav{
-    border: solid red;
-    width: 15%;
+.navFooter{
+    //border: solid red;
+    width: 3%;
     display: flex;
     justify-content: space-around;
 }
-}
+
 @media (min-width: 201px) and (max-width: 500px) {
    footer {
     flex-direction: column-reverse;

@@ -1,4 +1,4 @@
-.navBar{
+.navbar{
     background-color:#205691;
     display: flex;
     height: 12vh;
@@ -6,7 +6,7 @@
     justify-content: space-around;
 
     .logo{
-      width: 5vw;
+      width: 4vw;
     }
 
     ul{
@@ -17,6 +17,11 @@
         color: #ffffff;
         font-size: 1.42rem;
     
+  }
+
+  a{
+    color:#ffffff;
+    font-size: 1.25rem;
   }
 
     
@@ -35,6 +40,10 @@
 
     ul {
       font-size: 0.85rem;
+    }
+
+    a{
+      color:#ffffff;
     }
 
 
