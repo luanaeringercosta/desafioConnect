@@ -65,11 +65,11 @@ function AcoesDaConnect() {
 
  return (
     <section className={styles.containerDeAcoes}>
+
       <div className={styles.boxTitulosAcoes}>
 
         <h2>Ações da Connect</h2>
-        <p>Junte-se a quem acredita na mudança. Apoie, participe e transforme
-          vidas através de ações sociais que geram impacto real nas comunidades.
+        <p>Junte-se a quem acredita na mudança. Apoie, participe e transforme vidas através de ações sociais que geram impacto real nas comunidades.
 
         </p>
       </div>
@@ -77,7 +77,7 @@ function AcoesDaConnect() {
      <section className={styles.containerCardsDeAcoes}>
         {cards.map((item) => (
             <article key={item.id} className={styles.cardsDeAcoes}>
-                <img src="{item.imagem}" alt=""/>
+                <img src={item.imagem} alt={item.titulo}/>
                 <h2>{item.titulo}</h2>
                 <p>{item.informacao}</p>
                 <button>{item.botao}</button>

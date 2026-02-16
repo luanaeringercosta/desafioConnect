@@ -1,19 +1,16 @@
 .containerQuemSomos{
-    background-color: bisque;
+    background-color: #ffffff;
     height: 85vh;
-
-    background-image: url("../../assets/uniaoMao.png");
+    background-image: url("../../assets/acoesDaConnect.png");
     background-repeat: no-repeat;
-
-
     background-size: 100% 85vh;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: center;
 }
 
 .boxTextosQuemSomos{
-    border: solid red;
+    //border: solid red;
     width: 45%;
     height: 62vh;
 
@@ -25,11 +22,11 @@ justify-content: space-between;
 h2{
     color: #205692;
     font-size: 2.5rem;
-    border: solid red;
+    //border: solid red;
     width: 55%
 }
 p{
-    border: solid red;
+    //border: solid red;
     font-size: 1.5rem;
     width: 90%;
 
