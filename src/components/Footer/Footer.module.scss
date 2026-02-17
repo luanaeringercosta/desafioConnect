@@ -40,33 +40,43 @@ p{
 
 @media (min-width: 201px) and (max-width: 500px) {
    footer {
-    flex-direction: column-reverse;
+    //display: flex;
     height: 35vh;
-   
-    
+    flex-direction: column-reverse;
+    //justify-content: space-around;
+    //align-items: center;
+    //color:#ffffff;
 
 
 div{
-    
+    //border: solid;
+    //display: flex;
     width: 60%;
-   
+    //align-items: center;
+    //justify-content: space-around;
 }
-
+img{
+    width: 18%;
+    //border: solid red;
+}
 h2{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 400;
+}
 }
 
 p{
-   
-    width: 90%;
-
+    //border: solid green;
+    width: 86%;
+    //font-weight: 400%;
+    //text-align: center;
+    //font-size: 0.8rem;
 }
 
-nav{
-   
-    width: 80%;
-    
-}
+.navFooter{
+    //border: solid red;
+    width: 60%;
+    //display: flex;
+    //justify-content: space-around;
 }
 }
